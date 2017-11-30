@@ -23,6 +23,17 @@ This project also demonstrates:
 
 ---
 
+## Related Projects
+
+* [react-starter]
+* [react-clicker]
+* [react-clock-basic]
+* [react-timer-basic]
+* [react-timer-advanced]
+* [react-masterminds]
+
+---
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -128,3 +139,10 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 ## Authors
 
 * **Douglas Minnaar** - *Initial work* - [drminnaar](https://github.com/drminnaar)
+
+[react-starter]: https://github.com/drminnaar/react-starter
+[react-clicker]: https://github.com/drminnaar/react-clicker
+[react-clock-basic]: https://github.com/drminnaar/react-clock-basic
+[react-timer-basic]: https://github.com/drminnaar/react-timer-basic
+[react-timer-advanced]: https://github.com/drminnaar/react-timer-advanced
+[react-masterminds]: https://github.com/drminnaar/react-masterminds
