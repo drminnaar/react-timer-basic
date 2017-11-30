@@ -1,0 +1,28 @@
+$display-background-color: rgb(240, 240, 240);
+$display-border-color: rgb(221, 220, 220);
+$display-color: rgb(38, 203, 245);
+
+.display {
+    align-items: center;
+    background-color: $display-background-color;
+    border: 1rem solid $display-border-color;
+    border-radius: 50%;    
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    width: 20rem;
+}
+
+.display-time {
+    border: none;
+    background-color: $display-background-color;
+    color: $display-color;
+    font-size: 42px;
+    font-weight: 600;
+    outline-width: 0;
+    text-align: center;
+    width: 20rem;
+}
