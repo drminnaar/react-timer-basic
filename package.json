@@ -7,9 +7,9 @@
     "build:watch": "webpack --watch",
     "lint": "eslint .; exit 0",
     "lint:fix": "eslint . --fix",
-    "serve": "webpack -d && live-server ./public",
+    "serve": "webpack -p && live-server ./public",
     "serve:dev": "webpack-dev-server --open",
-    "start": "npm run serve:dev",
+    "start": "npm run serve",
     "test": "echo \"No tests available\" && exit 0"
   },
   "repository": {
