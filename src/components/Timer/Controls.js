@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Controls = (props) => (
-    <div className="container">
+    <div className="">
         <div className="d-flex flex-row">
-            <div className="col-md-4 mx-auto">
+            <div className="">
                 <div className="controls btn-group">
                     {
                         props.status !== 'started' &&

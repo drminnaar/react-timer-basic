@@ -11,36 +11,32 @@ const Display = (props) => {
     };
 
     const runningDisplayStyle = {
-        color: time.getSeconds(props.time) <= 5 ? '#FE5C5C' : ''
+        position: 'absolute',
+        top: 100,
+        color: props.time <= 10000 ? '#FE5C5C' : ''
     };
 
     return (
-        <div className="container">
-            <div className="d-flex flex-row">
-                <div className="col-md-4 mx-auto">
-                    <div className="display" style={{ position: 'relative' }}>
-                        {
-                            props.status === 'started'
-                            && <div className="display-time" style={runningDisplayStyle}>
-                                {time.getTime(props.time)}
-                            </div>
-                        }
-                        {
-                            props.status !== 'started' &&
-                            <div className="d-flex flex-column">
-                                <div className="text-info h6 align-self-center" style={{position: 'absolute', top: 60}}>
-                                    {time.getTime(props.time)}
-                                </div>
-                                <input className="display-time"
-                                    maxLength="6" value={props.seconds}
-                                    onChange={onChange} />
-                            </div>
-                        }
-                        <div style={{ position: 'absolute', bottom: 0, left: '-10rem' }}>
-                            {props.children}
-                        </div>
-                    </div>
+        <div className="display" style={{ position: 'relative' }}>
+            {
+                props.status === 'started'
+            && <div className="display-time align-self-center" style={runningDisplayStyle}>
+                {time.getTime(props.time)}
+            </div>
+            }
+            {
+                props.status !== 'started' &&
+            <div className="d-flex flex-column">
+                <div className="text-info h6 align-self-center" style={{position: 'absolute', top: 60}}>
+                    {time.getTime(props.time)}
                 </div>
+                <input className="display-time align-self-center" style={{position: 'absolute', top: 100}}
+                    maxLength="6" value={props.seconds}
+                    onChange={onChange} />
+            </div>                            
+            }
+            <div style={{ position: 'absolute', bottom: 0, left: '-10px'}}>                            
+                {props.children}
             </div>
         </div>
     );
