@@ -2,6 +2,8 @@
 
 A basic timer that will start a countdown based on an input of time in seconds.
 
+The Timer provides start, stop, and rest functionality. When the timer reaches a value <= 10, the timer color changes to red.
+
 This project also demonstrates:
 
 * a typcial React project layout structure
@@ -9,6 +11,10 @@ This project also demonstrates:
 * webpack setup and configuration
 * eslint setup and configuration
 * SCSS setup and configuration
+
+**Screenshots:**
+
+|![react-timer-basic-1](https://user-images.githubusercontent.com/33935506/33755966-f18607ba-dbfb-11e7-911e-5c55964419e0.PNG)|![react-timer-basic-2](https://user-images.githubusercontent.com/33935506/33755967-f1b96c36-dbfb-11e7-985b-94c4946979f5.PNG)|![react-timer-basic-3](https://user-images.githubusercontent.com/33935506/33755969-f22a7962-dbfb-11e7-9d6a-22be03ee7b77.PNG)|![react-timer-basic-4](https://user-images.githubusercontent.com/33935506/33755970-f25d7326-dbfb-11e7-8ec1-c1e2cc52189d.PNG)
 
 ---
 
@@ -26,11 +32,28 @@ This project also demonstrates:
 ## Related Projects
 
 * [react-starter]
+
+  A basic template that consists of the essential elements that are required to start building a React application
+
 * [react-clicker]
+
+  A basic React app that allows one to increase, decrease, or reset a counter
+
 * [react-clock-basic]
-* [react-timer-basic]
+
+  A basic clock that displays the current date and time
+
 * [react-timer-advanced]
+
+   A basic countdown timer that offers an advanced UI experience
+
 * [react-masterminds]
+
+  A basic game of guessing a number with varying degrees of difficulty
+
+* [react-movie-cards]
+
+  A basic application that displays a list of movies as a list of cards
 
 ---
 
@@ -146,3 +169,4 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 [react-timer-basic]: https://github.com/drminnaar/react-timer-basic
 [react-timer-advanced]: https://github.com/drminnaar/react-timer-advanced
 [react-masterminds]: https://github.com/drminnaar/react-masterminds
+[react-movie-cards]: https://github.com/drminnaar/react-movie-cards.git
