@@ -4,6 +4,8 @@ A basic timer that will start a countdown based on an input of time in seconds.
 
 The Timer provides start, stop, and rest functionality. When the timer reaches a value <= 10, the timer color changes to red.
 
+Go **[here](http://react-timer-basic.drminnaar.me/)** for live demo.
+
 Component Diagram
 ![](https://user-images.githubusercontent.com/33935506/34461426-30e5547c-ee32-11e7-8889-4fd16df7a7bb.png)
 
@@ -32,6 +34,7 @@ This project also demonstrates:
 * [Webpack](https://webpack.js.org/) - A module bundler
 * [SCSS](http://sass-lang.com/) - A css metalanguage
 * [Bootstrap 4](https://getbootstrap.com/) - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS
+* [Surge] - Static web publishing for Front-End Developers
 
 ---
 
@@ -181,6 +184,7 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 
 * **Douglas Minnaar** - *Initial work* - [drminnaar](https://github.com/drminnaar)
 
+[Surge]: https://surge.sh/
 [react-starter]: https://github.com/drminnaar/react-starter
 [react-clicker]: https://github.com/drminnaar/react-clicker
 [react-clock-basic]: https://github.com/drminnaar/react-clock-basic
